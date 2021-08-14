@@ -7,10 +7,10 @@ public class TestListPerson {
 		Person p3 = new Person("Luke", 24);
 		Person p4 = new Person("John", 18);
 		Person p5 = new Person("James", 27);
-		
+
 		List<Person> people = new ArrayList<>();
 
-		people.add(p1);
+		people.add(p1);a
 		people.add(p2);
 		people.add(p3);
 		people.add(p4);
