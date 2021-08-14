@@ -10,7 +10,7 @@ public class TestListPerson {
 
 		List<Person> people = new ArrayList<>();
 
-		people.add(p1);a
+		people.add(p1);
 		people.add(p2);
 		people.add(p3);
 		people.add(p4);
