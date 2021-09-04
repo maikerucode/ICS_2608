@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Google</title>
     <style media="screen">
+
       body {
         background-image: url(https://images2.alphacoders.com/960/thumb-1920-960506.png);
         background-repeat: no-repeat;
@@ -13,6 +14,11 @@
       .home {
         display: inline-block;
         width: 47%;
+      }
+
+      #searchbox {
+        border-radius: 5px;
+        padding: 10px;
       }
 
     </style>
@@ -31,9 +37,8 @@
     <div class="home" align="center" style="position:absolute; top:210px">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
       <br>
-      <br>
       <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <input type="text" size="50" placeholder="Search something...">
+        <input type="text" id="searchbox" size="50" placeholder="Search something...">
         <br>
         <br>
         <input type="submit" value="Google Search">
